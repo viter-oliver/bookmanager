@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#99c2ff"
+    android:text="移动式盘点软件"
+    android:textSize="25sp"
+    android:gravity="center_vertical"
+
+    android:drawableLeft="@drawable/booksearch"
+    android:drawablePadding="10dp"
+    android:layout_marginTop="80dp"
+    ></TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btn_ShangJia"
+                android:layout_width="150dp"
+                android:layout_height="70dp"
+                android:text="新书上架"
+                android:layout_weight="1"
+                android:layout_marginRight="20dp"></Button>
+
+
+            <Button
+                android:id="@+id/btn_ZhengLi"
+                android:layout_width="150dp"
+                android:layout_height="70dp"
+                android:layout_toRightOf="@id/btn_ShangJia"
+                android:text="图书整理"
+                android:layout_weight="1"></Button>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btn_ShunJia"
+                android:layout_width="150dp"
+                android:layout_height="70dp"
+                android:text="错架对比"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"></Button>
+
+            <Button
+                android:id="@+id/btn_CuoJia"
+                android:layout_width="150dp"
+                android:layout_height="70dp"
+                android:text="图书找架"
+                android:layout_weight="1"></Button>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btn_XiaJia"
+                android:layout_width="150dp"
+                android:layout_height="70dp"
+                android:text="剔除下架"
+                android:layout_weight="1"
+                android:layout_marginRight="20dp"></Button>
+            <Button
+                android:id="@+id/btn_ShuJu"
+                android:layout_width="150dp"
+                android:layout_height="70dp"
+                android:text="数据删除"
+                android:layout_weight="1">
+
+            </Button>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+
