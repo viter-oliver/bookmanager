@@ -88,6 +88,14 @@
                 android:layout_weight="1">
 
             </Button>
+            <Button
+                android:id="@+id/btn_Shu"
+                android:layout_width="150dp"
+                android:layout_height="70dp"
+                android:text="数据删除"
+                android:layout_weight="1">
+
+            </Button>
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>
